@@ -18,9 +18,9 @@ switch(opcao){
     document.write("Nenhuma das opções")   
     break;           
 }
-*/
 
-/*let valor = 7
+
+let valor = 7
 console.log(valor)
 valor = valor-1
 console.log(valor);
@@ -29,7 +29,7 @@ let valor1 =10
 console.log(valor1)
 valor +=3;
 console.log(valor1)
-*/
+
 
 //for (laço de repetição)
 
@@ -57,4 +57,34 @@ let cont=0
 while(cont<20){
     console.log("Passagem de numeros"+cont)
     cont++
+}
+
+let valor2 = 10
+do{
+    console.log("passagem" +valor2)
+    valor2++
+}while (valor2 ==0)
+
+//função
+
+function teste(num1,num2){
+    return num1 + num2
+}
+console.log(teste(4,6))
+
+function avisar (){
+    alert("Avisar")
+    alert("Avisar 2")
+}
+avisar()
+*/
+let novo = document.getElementById("idNome")
+
+function mudar(){
+    
+ document.getElementById("titulo").innerHTML =novo.value;
+}
+
+function trocar(cores){
+    document.body.style.background =cores
 }
