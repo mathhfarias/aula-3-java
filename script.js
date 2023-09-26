@@ -50,3 +50,11 @@ for(let i=0;i<carros.length;i++){
 for(let carro of carros){
     console.log(carro)
 }
+
+//while 
+
+let cont=0
+while(cont<20){
+    console.log("Passagem de numeros"+cont)
+    cont++
+}
