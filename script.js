@@ -20,7 +20,7 @@ switch(opcao){
 }
 */
 
-let valor = 7
+/*let valor = 7
 console.log(valor)
 valor = valor-1
 console.log(valor);
@@ -29,3 +29,10 @@ let valor1 =10
 console.log(valor1)
 valor +=3;
 console.log(valor1)
+*/
+
+//for (laço de repetição)
+
+for(leti=0;i<10;i++){
+    console.log("Agora i vale" +i);
+}
